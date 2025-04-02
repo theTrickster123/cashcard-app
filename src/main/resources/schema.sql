@@ -1,3 +1,4 @@
+
 -- This file is used to create the database schema for the application.
 CREATE TABLE cash_card
 (

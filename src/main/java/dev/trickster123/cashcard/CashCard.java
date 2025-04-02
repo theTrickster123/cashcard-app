@@ -1,4 +1,6 @@
 package dev.trickster123.cashcard;
 
-public record CashCard(Long id, Double amount) {
+import org.springframework.data.annotation.Id;
+
+public record CashCard(@Id Long id, Double amount) { //Added @Id annotation to id field to make sure CrudRepository recognize the correct Id
 }
